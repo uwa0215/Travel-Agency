@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+       <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="Images/logo.png" alt="">
+                </div>
+                <nav>
+                    <div class="btn">
+                        <i class="fa fa-times close-btn"> </i>
+                    </div>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="Book.html">Book</a></li>
+                    <li><a href="">Contact</a></li>
+                </nav>
+                <div class="btn">
+                    <i class="fa fa-bars menu-btn"> </i>
+                </div>
+            </div>
+       </div>
+    </header>
+    <main>
+        <div id="banner">
+        </div>
+        <div id="book">
+            <div class="location">
+                <div class="location1">
+                    <form>
+                        <label for="from-address">From:</label>
+                        <select id="from-address">
+                          <option value="Cebu City">Cebu</option>
+                          <option value="Davao City">Davao City</option>
+                          <option value="Caticlan">Caticlan, Boracay</option>
+                          <option value="Manila">Manila</option>
+                        </select>
+                      
+                        <label for="to-address">To:</label>
+                        <select id="to-address">
+                            <option value="Cebu City">Cebu</option>
+                            <option value="Davao City">Davao City</option>
+                            <option value="Caticlan">Caticlan, Boracay</option>
+                            <option value="Manila">Manila</option>
+                        </select>
+                      </form>
+                     
+                </div>
+                <div class="location2">
+                    <form action="">
+                    <label for="from-date">Date Depart:</label><br>
+                    <input type="date" id="from-date" name="from-date">
+                    </form>
+                </div>
+            </div>
+            <div class="passenger">
+                <div class="numpassenger">
+                    <form action="">
+                        <label for="numpass">Number of passenger:</label>
+                        <input type="number" id="numpass" name="numpass"><br><br>
+                        <label for="numpass">Class Type:</label><br>
+                        <input type="radio" value="economy" id="economy" name="class" checked>Economy <br>
+                        <input type="radio" value="vip" id="vip" name="class">VIP <br>
+                        <button id="bookbut" >Book</button>
+                        </form>
+                </div>
+
+               
+            </div>
+            <div class="travinfo">
+
+            </div>
+            <div class="payment">
+
+            </div>
+        </div>
+
+    </main>
+    <script src="JS/script.js"></script>
+</body>
+</html>
